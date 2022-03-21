@@ -24,6 +24,7 @@
     transform: translate(-50%, -50%);
     padding: 2em;
     background: white;
+  box-shadow: 0 0px 6pc rgb(0 0 0);
 }
 .modal-window header {
     font-weight: bold;
@@ -58,6 +59,7 @@ body {
     font-weight: 600;
     background-image: linear-gradient(to right, #7e00ff 26px, #002bff 100%);
     color: black;
+ 
 }
 a {
     color: inherit;
@@ -67,6 +69,10 @@ a {
     justify-content: center;
     align-items: center;
     height: 100vh;
+ 
+}
+container:hover{
+  box-shadow: 0 0px 6pc rgb(0 0 0);
 }
 .modal-window > div {
     border-radius: 1rem;
